@@ -122,9 +122,19 @@ for ( let i=0; i < holidays.length; i++ ) {
 //イメージ：let ● = ● などで、変数を設定（宣言する）
 //　　　　　条件式を入力
 //　　　　　｛｝内の記載内容を、条件に当てはまるまで繰り返す。
+// 文章などで決める。
+// セーブするまで終わらないなど、終わりがわからないときに使う
 
 let i = 0
 while ( i < holidays.length) {
   console.log(holidays[i]);
   i++;
 }
+
+
+// foreach文が現場ではよく使う
+// const numbers = [10, 20, 30, 40];
+
+// numbers.forEach((num) => {
+//   console.log(num);
+// });
